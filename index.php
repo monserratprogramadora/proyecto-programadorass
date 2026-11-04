@@ -1,4 +1,4 @@
-<?php
+<?php //no usar root en produccion
 $conexion = new mysqli("localhost", "root", "", "programadorass");
 
 if ($conexion->connect_error) {
